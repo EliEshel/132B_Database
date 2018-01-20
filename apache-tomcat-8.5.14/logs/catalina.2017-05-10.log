@@ -1,0 +1,94 @@
+10-May-2017 12:26:48.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.14
+10-May-2017 12:26:48.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2017 12:55:45 UTC
+10-May-2017 12:26:48.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.14.0
+10-May-2017 12:26:48.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-May-2017 12:26:48.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.10.5
+10-May-2017 12:26:48.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-May-2017 12:26:48.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
+10-May-2017 12:26:48.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b17
+10-May-2017 12:26:48.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-May-2017 12:26:48.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/phuong.tran/Downloads/apache-tomcat-8.5.14
+10-May-2017 12:26:48.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/phuong.tran/Downloads/apache-tomcat-8.5.14
+10-May-2017 12:26:48.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/phuong.tran/Downloads/apache-tomcat-8.5.14/conf/logging.properties
+10-May-2017 12:26:48.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2017 12:26:48.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-May-2017 12:26:48.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-May-2017 12:26:48.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/phuong.tran/Downloads/apache-tomcat-8.5.14
+10-May-2017 12:26:48.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/phuong.tran/Downloads/apache-tomcat-8.5.14
+10-May-2017 12:26:48.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/phuong.tran/Downloads/apache-tomcat-8.5.14/temp
+10-May-2017 12:26:48.049 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/phuong.tran/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+10-May-2017 12:26:48.213 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+10-May-2017 12:26:48.240 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-May-2017 12:26:48.245 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-May-2017 12:26:48.246 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-May-2017 12:26:48.247 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 507 ms
+10-May-2017 12:26:48.274 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+10-May-2017 12:26:48.274 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.14
+10-May-2017 12:26:48.281 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/cse132
+10-May-2017 12:26:48.584 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 12:26:48.639 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/cse132 has finished in 357 ms
+10-May-2017 12:26:48.639 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/docs
+10-May-2017 12:26:48.693 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 12:26:48.694 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/docs has finished in 55 ms
+10-May-2017 12:26:48.694 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/examples
+10-May-2017 12:26:49.372 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 12:26:49.403 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/examples has finished in 709 ms
+10-May-2017 12:26:49.403 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/host-manager
+10-May-2017 12:26:49.461 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 12:26:49.463 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/host-manager has finished in 60 ms
+10-May-2017 12:26:49.463 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/manager
+10-May-2017 12:26:49.539 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 12:26:49.540 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/manager has finished in 77 ms
+10-May-2017 12:26:49.540 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/ROOT
+10-May-2017 12:26:49.599 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 12:26:49.601 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/Downloads/apache-tomcat-8.5.14/webapps/ROOT has finished in 61 ms
+10-May-2017 12:26:49.603 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+10-May-2017 12:26:49.609 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-May-2017 12:26:49.610 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1363 ms
+10-May-2017 23:12:07.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.14
+10-May-2017 23:12:07.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2017 12:55:45 UTC
+10-May-2017 23:12:07.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.14.0
+10-May-2017 23:12:07.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-May-2017 23:12:07.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.10.5
+10-May-2017 23:12:07.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-May-2017 23:12:07.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
+10-May-2017 23:12:07.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b17
+10-May-2017 23:12:07.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-May-2017 23:12:07.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14
+10-May-2017 23:12:07.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14
+10-May-2017 23:12:07.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/conf/logging.properties
+10-May-2017 23:12:07.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2017 23:12:07.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-May-2017 23:12:07.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-May-2017 23:12:07.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14
+10-May-2017 23:12:07.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14
+10-May-2017 23:12:07.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/temp
+10-May-2017 23:12:07.156 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/phuong.tran/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+10-May-2017 23:12:07.355 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+10-May-2017 23:12:07.401 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-May-2017 23:12:07.410 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-May-2017 23:12:07.412 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-May-2017 23:12:07.413 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 827 ms
+10-May-2017 23:12:07.450 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+10-May-2017 23:12:07.451 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.14
+10-May-2017 23:12:07.463 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/cse132
+10-May-2017 23:12:08.018 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 23:12:08.132 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/cse132 has finished in 668 ms
+10-May-2017 23:12:08.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/docs
+10-May-2017 23:12:08.324 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 23:12:08.328 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/docs has finished in 195 ms
+10-May-2017 23:12:08.328 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/examples
+10-May-2017 23:12:08.862 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 23:12:08.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/examples has finished in 591 ms
+10-May-2017 23:12:08.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/host-manager
+10-May-2017 23:12:09.019 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 23:12:09.024 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/host-manager has finished in 105 ms
+10-May-2017 23:12:09.024 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/manager
+10-May-2017 23:12:09.128 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 23:12:09.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/manager has finished in 107 ms
+10-May-2017 23:12:09.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/ROOT
+10-May-2017 23:12:09.267 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2017 23:12:09.271 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/phuong.tran/CS132b/team53_cse132b/apache-tomcat-8.5.14/webapps/ROOT has finished in 140 ms
+10-May-2017 23:12:09.276 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+10-May-2017 23:12:09.290 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-May-2017 23:12:09.293 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1880 ms

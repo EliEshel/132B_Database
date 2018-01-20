@@ -1,0 +1,1328 @@
+10-May-2017 12:26:49.399 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-May-2017 12:26:49.399 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-May-2017 12:48:38.582 SEVERE [http-nio-9999-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cse132] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 45 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+48: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+73:                         // Commit transaction
+74:                          conn.commit();
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 45 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+48: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+73:                         // Commit transaction
+74:                          conn.commit();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:377)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-May-2017 12:57:12.984 SEVERE [http-nio-9999-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cse132] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+40:                             "INSERT INTO prereqs VALUES (?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+44: 
+45:                         int rowCount = pstmt.executeUpdate();
+46: 
+
+
+An error occurred at line: 67 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+64:                             "UPDATE prereqs SET COURSENUMBER = ?, PREREQCOURSE = ?");
+65: 
+66:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+67:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+68: 
+69:                         // Commit transaction
+70:                          conn.commit();
+
+
+An error occurred at line: 89 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+86:                             "DELETE FROM prereqs WHERE COURSENUMBER = ? AND PREREQCOURSE = ?");
+87: 
+88:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+89:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+90: 
+91:                         // Commit transaction
+92:                          conn.commit();
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+40:                             "INSERT INTO prereqs VALUES (?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+44: 
+45:                         int rowCount = pstmt.executeUpdate();
+46: 
+
+
+An error occurred at line: 67 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+64:                             "UPDATE prereqs SET COURSENUMBER = ?, PREREQCOURSE = ?");
+65: 
+66:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+67:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+68: 
+69:                         // Commit transaction
+70:                          conn.commit();
+
+
+An error occurred at line: 89 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+86:                             "DELETE FROM prereqs WHERE COURSENUMBER = ? AND PREREQCOURSE = ?");
+87: 
+88:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+89:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+90: 
+91:                         // Commit transaction
+92:                          conn.commit();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:377)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-May-2017 12:57:15.188 SEVERE [http-nio-9999-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cse132] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 45 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+48: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+73:                         // Commit transaction
+74:                          conn.commit();
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 45 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+48: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+73:                         // Commit transaction
+74:                          conn.commit();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:377)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-May-2017 13:05:00.432 SEVERE [http-nio-9999-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cse132] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 45 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+48: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+73:                         int rowCount = pstmt.executeUpdate();
+74:                         
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 43 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+40:                             "INSERT INTO studentpastclasses VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+
+
+An error occurred at line: 45 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+48: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+73:                         int rowCount = pstmt.executeUpdate();
+74:                         
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:377)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-May-2017 13:07:14.552 SEVERE [http-nio-9999-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cse132] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 44 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID")));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+
+
+An error occurred at line: 45 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID")));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+48: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+73:                         int rowCount = pstmt.executeUpdate();
+74: 
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 44 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID")));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+
+
+An error occurred at line: 45 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID")));
+44:                         pstmt.setString(3, request.getParameter("QUARTER")));
+45:                         pstmt.setString(4, request.getParameter("GRADE")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+48: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+73:                         int rowCount = pstmt.executeUpdate();
+74: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:377)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-May-2017 13:09:15.243 SEVERE [http-nio-9999-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cse132] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+73:                         int rowCount = pstmt.executeUpdate();
+74: 
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE studentpastclasses SET STUDENTID = ?, SECTIONID = ?, QUARTER = ?, GRADE = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /studentpastclasses.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("QUARTER")));
+71:                         pstmt.setString(4, request.getParameter("GRADE")));
+72: 
+73:                         int rowCount = pstmt.executeUpdate();
+74: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:377)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-May-2017 13:13:04.732 SEVERE [http-nio-9999-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cse132] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+40:                             "INSERT INTO prereqs VALUES (?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+44: 
+45:                         int rowCount = pstmt.executeUpdate();
+46: 
+
+
+An error occurred at line: 67 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+64:                             "UPDATE prereqs SET COURSENUMBER = ?, PREREQCOURSE = ?");
+65: 
+66:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+67:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+68: 
+69:                         // Commit transaction
+70:                          conn.commit();
+
+
+An error occurred at line: 89 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+86:                             "DELETE FROM prereqs WHERE COURSENUMBER = ? AND PREREQCOURSE = ?");
+87: 
+88:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+89:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+90: 
+91:                         // Commit transaction
+92:                          conn.commit();
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+40:                             "INSERT INTO prereqs VALUES (?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+44: 
+45:                         int rowCount = pstmt.executeUpdate();
+46: 
+
+
+An error occurred at line: 67 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+64:                             "UPDATE prereqs SET COURSENUMBER = ?, PREREQCOURSE = ?");
+65: 
+66:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+67:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+68: 
+69:                         // Commit transaction
+70:                          conn.commit();
+
+
+An error occurred at line: 89 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+86:                             "DELETE FROM prereqs WHERE COURSENUMBER = ? AND PREREQCOURSE = ?");
+87: 
+88:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+89:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+90: 
+91:                         // Commit transaction
+92:                          conn.commit();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:377)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-May-2017 13:30:07.364 SEVERE [http-nio-9999-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cse132] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /currentenrollment.jsp
+Syntax error, insert ")" to complete Expression
+40:                             "INSERT INTO currentenrollment VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setInt(3,Integer.parseInt(request.getParameter("UNITS"));
+45:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+46:                         
+
+
+An error occurred at line: 44 in the jsp file: /currentenrollment.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setInt(3,Integer.parseInt(request.getParameter("UNITS"));
+45:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+
+
+An error occurred at line: 44 in the jsp file: /currentenrollment.jsp
+Syntax error on token ";", , expected
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setInt(3,Integer.parseInt(request.getParameter("UNITS"));
+45:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+
+
+An error occurred at line: 69 in the jsp file: /currentenrollment.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE currentenrollment SET STUDENTID = ?, SECTIONID = ?, UNITS = ?, ENROLLEDWAITLISTED = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("UNITS")));
+71:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /currentenrollment.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE currentenrollment SET STUDENTID = ?, SECTIONID = ?, UNITS = ?, ENROLLEDWAITLISTED = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("UNITS")));
+71:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /currentenrollment.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("UNITS")));
+71:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+72: 
+73:                         // Commit transaction
+74:                          conn.commit();
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /currentenrollment.jsp
+Syntax error, insert ")" to complete Expression
+40:                             "INSERT INTO currentenrollment VALUES (?, ?, ?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setInt(3,Integer.parseInt(request.getParameter("UNITS"));
+45:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+46:                         
+
+
+An error occurred at line: 44 in the jsp file: /currentenrollment.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setInt(3,Integer.parseInt(request.getParameter("UNITS"));
+45:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+
+
+An error occurred at line: 44 in the jsp file: /currentenrollment.jsp
+Syntax error on token ";", , expected
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+44:                         pstmt.setInt(3,Integer.parseInt(request.getParameter("UNITS"));
+45:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+46:                         
+47:                         int rowCount = pstmt.executeUpdate();
+
+
+An error occurred at line: 69 in the jsp file: /currentenrollment.jsp
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, int, void)
+66:                             "UPDATE currentenrollment SET STUDENTID = ?, SECTIONID = ?, UNITS = ?, ENROLLEDWAITLISTED = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("UNITS")));
+71:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+72: 
+
+
+An error occurred at line: 69 in the jsp file: /currentenrollment.jsp
+Syntax error on token ";", , expected
+66:                             "UPDATE currentenrollment SET STUDENTID = ?, SECTIONID = ?, UNITS = ?, ENROLLEDWAITLISTED = ?");
+67: 
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("UNITS")));
+71:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+72: 
+
+
+An error occurred at line: 71 in the jsp file: /currentenrollment.jsp
+Syntax error on token ")", delete this token
+68:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("STUDENTID")));
+69:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("SECTIONID"));
+70:                         pstmt.setString(3, request.getParameter("UNITS")));
+71:                         pstmt.setString(4, request.getParameter("ENROLLEDWAITLISTED")));
+72: 
+73:                         // Commit transaction
+74:                          conn.commit();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:377)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-May-2017 14:16:39.905 SEVERE [http-nio-9999-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cse132] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+40:                             "INSERT INTO prereqs VALUES (?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+44: 
+45:                         int rowCount = pstmt.executeUpdate();
+46: 
+
+
+An error occurred at line: 67 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+64:                             "UPDATE prereqs SET COURSENUMBER = ?, PREREQCOURSE = ?");
+65: 
+66:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+67:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+68: 
+69:                         // Commit transaction
+70:                          conn.commit();
+
+
+An error occurred at line: 89 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+86:                             "DELETE FROM prereqs WHERE COURSENUMBER = ? AND PREREQCOURSE = ?");
+87: 
+88:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+89:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+90: 
+91:                         // Commit transaction
+92:                          conn.commit();
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+40:                             "INSERT INTO prereqs VALUES (?, ?)");
+41: 
+42:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+43:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+44: 
+45:                         int rowCount = pstmt.executeUpdate();
+46: 
+
+
+An error occurred at line: 67 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+64:                             "UPDATE prereqs SET COURSENUMBER = ?, PREREQCOURSE = ?");
+65: 
+66:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+67:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+68: 
+69:                         // Commit transaction
+70:                          conn.commit();
+
+
+An error occurred at line: 89 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+86:                             "DELETE FROM prereqs WHERE COURSENUMBER = ? AND PREREQCOURSE = ?");
+87: 
+88:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+89:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+90: 
+91:                         // Commit transaction
+92:                          conn.commit();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:377)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-May-2017 14:21:05.542 SEVERE [http-nio-9999-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/cse132] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 67 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+64:                             "UPDATE prereqs SET COURSENUMBER = ?, PREREQCOURSE = ?");
+65: 
+66:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+67:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+68: 
+69:                         int rowCount = pstmt.executeUpdate();
+70: 
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 67 in the jsp file: /prereqs.jsp
+Syntax error, insert ")" to complete Expression
+64:                             "UPDATE prereqs SET COURSENUMBER = ?, PREREQCOURSE = ?");
+65: 
+66:                         pstmt.setInt(1,Integer.parseInt(request.getParameter("COURSENUMBER")));
+67:                         pstmt.setInt(2,Integer.parseInt(request.getParameter("PREREQCOURSE"));
+68: 
+69:                         int rowCount = pstmt.executeUpdate();
+70: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:377)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+10-May-2017 23:12:08.908 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-May-2017 23:12:08.908 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
